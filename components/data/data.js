@@ -1,5 +1,13 @@
+/** @module Data */
 
+/**
+ * @param {string} data - дата завершения задачи
+ * @param {(event) => void} onChange - колбек при изменении даты пользователем
+ */
 
+/**
+ * @type {React.FC}
+ */
 export const Data = ({ data,onChange }) => {
 
   return (
